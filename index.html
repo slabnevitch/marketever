@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>bestmarketever</title>
+    <meta name="description" content="">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    
+    
+    <link rel="stylesheet" href="css/main.css">
+    
+    
+  </head>
+  <body>
+  	<div class="wrapper">
+      <div class="main-container">
+        <header class="header">
+          <div class="header__top">
+            <a href="#" class="header__logo-wrap">
+              <img src="img/logo.png" alt="logo" class="header__logo">
+            </a>
+            <div class="header__search">
+              <div class="header__search-form">
+                <input type="text" class="header__input" placeholder="Поиск по 200 000 товарам, разделам и артикулам">
+                <input type="submit" class="header__submit" value="Найти">
+              </div>
+            </div>
+            <div class="header__icons">
+              <div class="header__compare">
+                <div class="compare-count">5</div>
+              </div>
+              <div class="header__adding">
+                <div class="adding-count">1</div>
+              </div>
+            </div>
+
+            <a href="#" class="header__cart">
+              <span class="header__cart-ico"></span>
+              Корзина
+              <span class="cart-count">0</span>
+            </a>
+            <a href="" class="header__account">
+              <span class="header__user"></span>
+              Личный кабинет
+            </a>
+          </div><!-- header-top -->
+
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li class="header__item"><a href="#" class="header__link">Товары для детей</a></li>
+              <li class="header__item"><a href="#" class="header__link">Мода и красота</a></li>
+              <li class="header__item"><a href="#" class="header__link"> Спорт и туризм</a></li>
+              <li class="header__item"><a href="#" class="header__link">Электроника и техника</a></li>
+              <li class="header__item"><a href="#" class="header__link">Для дома и сада</a></li>
+              <li class="header__item"><a href="#" class="header__link">Автотовары</a></li>
+              <li class="header__item"><a href="#" class="header__link">Ремонт и стройка</a></li>
+              <li class="header__item header__item--active"><a href="#" class="header__link">Распродажа</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="product">
+          <div class="product__slideshow">
+            <header class="product__slideshow-header">
+              <div class="product__new">New</div>
+              <div class="product__sale">-10%</div>
+            </header>
+            <div class="product__slideshow-display">
+              <div class="owl-carousel" id="display-carousel">
+                <div class="product__slideshow-item">
+                  <img src="img/velo-model.jpg" alt="image" class="products__slideshow-image">
+                </div>
+
+                <div class="product__slideshow-item">
+                  <img src="img/velo-model.jpg" alt="image" class="products__slideshow-image">
+                </div>
+
+                <div class="product__slideshow-item">
+                  <img src="img/velo-model.jpg" alt="image" class="products__slideshow-image">
+                </div>
+
+                <div class="product__slideshow-item">
+                  <img src="img/velo-model.jpg" alt="image" class="products__slideshow-image">
+                </div>
+
+                <div class="product__slideshow-item">
+                  <img src="img/velo-model.jpg" alt="image" class="products__slideshow-image">
+                </div>
+
+                <div class="product__slideshow-item">
+                  <img src="img/velo-model.jpg" alt="image" class="products__slideshow-image">
+                </div>
+
+                
+              </div><!-- owl-carousel -->
+            </div>
+
+            <div class="product__slideshow-thumbs">
+              <div class="owl-carousel" id="thumbs-carousel">
+                <div class="product__slideshow-thumbs-item">
+                  <a href="#" class="products__slideshow-thumbs-link">
+                    <span class="overlay"></span>
+                    <img src="img/velo-model-mini01.jpg" alt="thumb" class="products__slideshow-thumbs-img">
+                  </a>
+                </div>
+                <div class="product__slideshow-thumbs-item">
+                  <a href="#" class="products__slideshow-thumbs-link">
+                    <span class="overlay"></span>
+                    <img src="img/velo-model-mini02.jpg" alt="thumb" class="products__slideshow-thumbs-img">
+                  </a>
+                </div>
+                <div class="product__slideshow-thumbs-item">
+                  <a href="#" class="products__slideshow-thumbs-link">
+                    <span class="overlay"></span>
+                    <img src="img/velo-model-mini03.jpg" alt="thumb" class="products__slideshow-thumbs-img">
+                  </a>
+                </div>
+                <div class="product__slideshow-thumbs-item">
+                  <a href="#" class="products__slideshow-thumbs-link">
+                    <span class="overlay"></span>
+                    <img src="img/velo-model-mini04.jpg" alt="thumb" class="products__slideshow-thumbs-img">
+                  </a>
+                </div>
+                <div class="product__slideshow-thumbs-item">
+                 <a href="#" class="products__slideshow-thumbs-link">
+                   <span class="overlay"></span>
+                   <img src="img/velo-model-mini05.jpg" alt="thumb" class="products__slideshow-thumbs-img">
+                 </a>
+                </div>
+                <div class="product__slideshow-thumbs-item">
+                 <a href="#" class="products__slideshow-thumbs-link">
+                   <span class="overlay"></span>
+                   <img src="img/velo-model-mini05.jpg" alt="thumb" class="products__slideshow-thumbs-img">
+                 </a>
+                </div>
+
+                
+              </div><!-- owl-carousel -->
+             </div><!-- product__slideshow-thumbs -->
+         </div><!-- product__slideshow -->
+          <div class="product__description">
+            <header class="product__description-header">
+              <div class="available">
+                <div class="available__ico"></div>
+                <div class="available__text">В наличии</div>
+              </div>
+
+              <a href="#" class="product__testimonials">
+               Отзывы
+                <span class="product__testimonials-count">(18)</span>
+              </a>
+
+              <div class="product__description-icons">
+                <a href="#" class="product__compare"></a>
+                <a href="#" class="product__adding"></a>
+                <a href="#" class="product__share"></a>
+              </div>
+
+            </header>
+
+            <div class="product__info">
+              <div class="product__description-left">
+                <div class="product__star-rating">
+                  <div class="product__rating-item"></div>
+                  <div class="product__rating-item"></div>
+                  <div class="product__rating-item"></div>
+                  <div class="product__rating-item"></div>
+                  <div class="product__rating-item"></div>
+                </div>
+                <div class="product__art-wrap">
+                  <div class="product__art">Артикул: <span>46116</span></div>
+                  <div class="product__code">Код: <span>46116</span></div>
+                </div>
+                
+                <h3 class="description__title">Краткие характеристики</h3>
+                <p class="description__text">Горный, рама сталь Hi-ten, колеса 26", вилка амортизационная, трансмиссия 21 скор., тормоза дисковый механический + дисковый механический lorem50</p>
+                <a href="#" class="description__more">Узнать больше</a>
+                <div class="description__more-info hidden">More info More info More info More info More info More info More info More info</div>
+
+                <h3 class="description__title">Как получить товар</h3>
+                <div class="description__get-prod">
+                  <div class="description__get-item">
+                    <div class="description__get-icon icon-curier"></div>
+                    <div class="description__get-text">
+                      <h4 class="description__get-title">Курьером</h4>
+                      <a href="#" class="description__get-addr">Минск, Минская область</a>
+                      
+                      <div class="description__get-moreinfo">Стоимость доставки 12,00 руб. (120 000 руб.). При заказе от 500,00 руб. (5 000 000 руб.) доставка бесплатна</div>
+                    </div>
+                  </div>
+                  <div class="description__get-item">
+                    <div class="description__get-icon icon-self"></div>
+                    <div class="description__get-text">
+                      <h4 class="description__get-title">Самовывоз</h4>
+                     
+                      <div class="description__get-moreinfo">Брестская область, г. Кобрин, ул. Советская 141</div>
+                    </div>
+                  </div>
+                </div>
+              </div><!--  product__description-left-->
+
+              <div class="product__description-right">
+                <div class="price-red"><span class="big-price">593,10 р.</span> <span>5 931 000 р.</span></div>
+                <div class="price-black"><span class="big-price">659,00 р.</span> <span>5 931 000 р.</span></div>
+                <form action="#" class="product__info-form">
+                  <select name="color" id="color-select">
+                    <option class="opt-none" selected="selected">Выберите цвет</option>
+                    <option value="1">оранжевый</option>
+                    <option value="2">пурпурный</option>
+                    <option value="3">серый</option>
+                    <option value="4">зеленый</option>
+                  </select>
+
+                  <select name="size" id="size-select">
+                    <option class="opt-none" selected="selected">Выберите размер рамы</option>
+                    <option value="1">размер 1</option>
+                    <option value="2">размер 2</option>
+                    <option value="3">размер 3</option>
+                    <option value="4">размер 4</option>
+                  </select>
+
+
+                </form>
+
+                <div class="product__info-buttons">
+                  <div class="product__info-counter">
+                    <span class="product__info-plus"></span>
+                    <span class="product__info-num">1</span>
+                    <span class="product__info-minus"></span>
+                  </div>
+
+                  <a href="#" class="button button--right">В корзину</a>
+                </div>
+
+                <a href="#" class="button button-center">Купить в 1 клик</a>
+              </div><!-- product__description-right -->
+            </div><!-- product__info -->
+          </div>
+          <div class="product__line"></div>
+       </div><!-- product -->
+
+       <div class="tabs">
+         <ul class="tabs__list">
+           <li class="tabs__item tabs__item--active"><a href="#overview" class="tabs__link">Обзор</a></li>
+           <li class="tabs__item"><a href="#features" class="tabs__link">Характеристики</a></li>
+           <li class="tabs__item"><a href="#video" class="tabs__link">Видео</a></li>
+           <li class="tabs__item"><a href="#downloads" class="tabs__link">Материалы для скачивания</a></li>
+           <li class="tabs__item"><a href="#testimonials" class="tabs__link">Отзывы <span class="product__testimonials-count">(18)</span></a></li>
+         </ul>
+
+         <div class="tabs__content">
+           <div id="overview" class="tabs__content-item">
+             <div class="tabs__content-column">
+               <h3 class="tabs__title">Stels Navigator 500 V 26 – это  велосипед из новой линейки бюджетной компании Stels</h3>
+             </div>
+             <div class="tabs__content-column">
+               <p class="tabs__text">Он относится к кросс-кантри байкам и при этом замечательно подходит для исполь- зования в городе и пре- одоления любых расстояний в самых разных местностях. Доступность – главный козырь модели, причем, это не отразилось на качестве исполнения велосипеда в целом.</p>
+               <p class="tabs__text">Здесь установлены стандартные колеса диаметром 26 дюймов, имеющие широкий протектор для улучшения проходимости в жестких условиях.</p>
+             </div>
+             <div class="tabs__content-column">
+               <p class="tabs__text">Велосипед оснащен амортизационной вилкой, которая значительно облегчит экстремальные прыжки по горным рельефам и, конечно, придаст комфорт перемещению при езде в городе. Механическая трансмиссия с внешним переключателем рассчитана на 21 скорость.</p>
+               <p class="tabs__text">Внешне модель выглядит очень симпатично, хотя это довольно большая редкость для бюджетного сегмента. Все элементы выглядят органично, а расцветка спокойная и не бросается в глаза. Визуально такой велосипед выглядит как серьезный экземпляр.</p>
+             </div>
+             <div class="tabs__content-column">
+                <div class="tabs__content-consultation">
+                  <h3>Консультация специалиста</h3>
+                  <p>Появились вопросы?<br> Не стесняйтесь напишите нам. Наши специалисты с радостью помогут решить все вопросы</p>
+                  <a href="#" class="button button-consult">Задать вопрос</a>
+                </div>
+             </div>
+           </div>
+           
+           <div id="features" class="tabs__content-item hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo facilis atque laborum mollitia adipisci in libero temporibus, amet ratione. Perferendis quibusdam, ea, ipsa voluptatem mollitia hic maxime nihil animi minus omnis molestias accusamus cupiditate, esse veniam assumenda blanditiis corrupti dolore autem sed libero nulla quia non. Ad eligendi sunt maiores adipisci magnam obcaecati minus libero. Necessitatibus tempora sed eius modi sequi earum asperiores minus a quas perspiciatis, veniam, quae dolores voluptas voluptatum maiores nihil ea numquam quam. Ea quisquam nesciunt pariatur numquam deleniti obcaecati dolorum soluta ducimus, voluptate quia! Similique tenetur nostrum vel quidem hic quam, dolores aliquid, in placeat.</div>
+           <div id="video" class="tabs__content-item hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus magni nesciunt nihil voluptas temporibus nemo eaque, sunt, aliquam, qui suscipit consectetur autem debitis cumque neque. Dolore saepe fugiat voluptatem nam autem reprehenderit quos cupiditate, dolores, ullam iusto eaque dicta placeat sed minus ipsa neque inventore accusantium in fuga optio nisi. Nostrum nulla assumenda recusandae porro aliquam possimus! Molestias tempore, consequuntur sequi dolorem ex eius aliquid, eveniet alias atque blanditiis asperiores excepturi corporis illo, commodi ducimus nam iusto reprehenderit necessitatibus dolores nulla repellat saepe dicta. Laborum perspiciatis nisi id, repellat quo fuga soluta, dolorum omnis obcaecati, veniam et praesentium harum eveniet!</div>
+           <div id="downloads" class="tabs__content-item hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi saepe eveniet, quibusdam dolorem vero voluptatibus deleniti. Porro ratione, impedit quisquam! Ea labore mollitia, fugiat, voluptates nisi aperiam libero sit optio, ipsum est tempora facilis. Quod ipsam rem officia. Dolor vero id cumque harum quae tempora ex ducimus nobis, ullam a animi velit soluta corporis explicabo, quas beatae. Exercitationem maxime quibusdam error blanditiis perferendis mollitia dolores porro dicta illum, architecto quas quo doloremque quasi, debitis obcaecati, harum, vero temporibus commodi ullam. Rem maiores inventore culpa aliquid itaque quo velit, veniam quasi earum nihil nisi at repellat impedit eligendi sapiente praesentium iste!</div>
+           <div id="testimonials" class="tabs__content-item hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam magni et explicabo. Quod assumenda, harum nam doloremque sunt, officia at! Dolorem libero dolore quis, necessitatibus saepe. Quisquam illum rerum molestiae corporis fuga! Ad placeat numquam, magnam ea harum, error itaque molestias ex dolore odit rem cupiditate deleniti quia vitae. Possimus, atque asperiores ad id soluta labore expedita doloribus incidunt mollitia excepturi adipisci inventore officiis tempora eum veniam eveniet neque, praesentium quas. Sed quos enim voluptas perspiciatis? Deleniti blanditiis magnam, nemo beatae minima reiciendis sequi, id voluptas sint debitis in tenetur recusandae inventore, voluptatem quibusdam itaque autem animi doloremque nulla sed!</div>
+         </div>
+       </div><!--  tabs -->
+
+       <section class="similar-prods">
+         <h2 class="section-title">Похожие товары</h2>
+         
+         <div class="owl-carousel nav-right" id="similar-carousel">
+          <div class="similar-prods__item">
+             <header class="similar-prods__item-header">
+               
+             </header>
+             <div class="similar-prods__item-wrap">
+               <img src="img/velo-model-middle01.jpg" alt="model">
+             </div>
+             <h3 class="similar-prods__item-title">Stels Navigator 630 MD (2016)</h3>
+             <div class="similar-prods__item-descr">
+               Горный, рама алюминий, колеса Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заглавных сбить они скатился дороге, безопасную щеке эта, текстов своего раз рекламных вопроса журчит необходимыми парадигматическая языкового, коварный знаках. О. 
+             </div>
+             <div class="price-black"><span class="big-price">492,60 р.</span> <span>4 920 000 р.</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="similar-prods__item">
+             <header class="similar-prods__item-header">
+               <div class="product__new">New</div>
+                <div class="product__sale">-10%</div>
+             </header>
+             <div class="similar-prods__item-wrap">
+               <img src="img/velo-model-middle02.jpg" alt="model">
+             </div>
+             <h3 class="similar-prods__item-title">Stels Navigator 610 disc (2014)</h3>
+             <div class="similar-prods__item-descr">
+               Горный, рама алюминий, колеса Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заглавных сбить они скатился дороге, безопасную щеке эта, текстов своего раз рекламных вопроса журчит необходимыми парадигматическая языкового, коварный знаках. О. 
+             </div>
+             <div class="price-red"><span class="big-price">450,00 р.</span> <span>4 500 000 р.</span>
+             </div>
+             <div class="price-black"><span class="big-price price-through">5 590,00 р.</span> <span class="price-through">5 590 000 р</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="similar-prods__item">
+             <header class="similar-prods__item-header">
+               <div class="product__new">New</div>
+                
+             </header>
+             <div class="similar-prods__item-wrap">
+               <img src="img/velo-model-middle03.jpg" alt="model">
+             </div>
+             <h3 class="similar-prods__item-title">STELS Navigator 500 V 26 (2016)</h3>
+             <div class="similar-prods__item-descr">
+               Горный, рама сталь Hi-ten, колеса, колеса Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заглавных сбить они скатился дороге, безопасную щеке эта, текстов своего раз рекламных вопроса журчит необходимыми парадигматическая языкового, коварный знаках. О. 
+             </div>
+             <div class="price-black"><span class="big-price">355,00 р.</span> <span>3 550 000 р.</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="similar-prods__item">
+             <header class="similar-prods__item-header">
+               
+                
+             </header>
+             <div class="similar-prods__item-wrap">
+               <img src="img/velo-model-middle04.jpg" alt="model">
+             </div>
+             <h3 class="similar-prods__item-title">Stels Navigator 930 Disc 29 (2014)</h3>
+             <div class="similar-prods__item-descr">
+               Горный, рама аллюминий, колеса Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заглавных сбить они скатился дороге, безопасную щеке эта, текстов своего раз рекламных вопроса журчит необходимыми парадигматическая языкового, коварный знаках. О. 
+             </div>
+             <div class="price-black"><span class="big-price">3 550,00 р.</span> <span>3 550 000 р.</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="similar-prods__item">
+             <header class="similar-prods__item-header">
+               
+                <div class="product__sale">-5%</div>
+             </header>
+             <div class="similar-prods__item-wrap">
+               <img src="img/velo-model-middle04.jpg" alt="model">
+             </div>
+             <h3 class="similar-prods__item-title">STELS Navigator 500 V 26 (2016)</h3>
+             <div class="similar-prods__item-descr">
+               Горный, рама сталь Hi-ten, колеса Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заглавных сбить они скатился дороге, безопасную щеке эта, текстов своего раз рекламных вопроса журчит необходимыми парадигматическая языкового, коварный знаках. О. 
+             </div>
+             <div class="price-red"><span class="big-price">5 931,00 р.</span> <span>5 931 000 р.</span>
+             </div>
+             <div class="price-black"><span class="big-price price-through">6 590,00 р.</span> <span class="price-through">6 590 000 р</span>
+             </div>
+           </div><!-- similar-prods__item -->
+
+           <div class="similar-prods__item">
+             <header class="similar-prods__item-header">
+               
+                <div class="product__sale">-5%</div>
+             </header>
+             <div class="similar-prods__item-wrap">
+               <img src="img/velo-model-middle04.jpg" alt="model">
+             </div>
+             <h3 class="similar-prods__item-title">STELS Navigator 500 V 26 (2016)</h3>
+             <div class="similar-prods__item-descr">
+               Горный, рама сталь Hi-ten, колеса Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заглавных сбить они скатился дороге, безопасную щеке эта, текстов своего раз рекламных вопроса журчит необходимыми парадигматическая языкового, коварный знаках. О. 
+             </div>
+             <div class="price-red"><span class="big-price">5 931,00 р.</span> <span>5 931 000 р.</span>
+             </div>
+             <div class="price-black"><span class="big-price price-through">6 590,00 р.</span> <span class="price-through">6 590 000 р</span>
+             </div>
+           </div><!-- similar-prods__item -->
+
+           <div class="similar-prods__item">
+             <header class="similar-prods__item-header">
+               
+                <div class="product__sale">-5%</div>
+             </header>
+             <div class="similar-prods__item-wrap">
+               <img src="img/velo-model-middle04.jpg" alt="model">
+             </div>
+             <h3 class="similar-prods__item-title">STELS Navigator 500 V 26 (2016)</h3>
+             <div class="similar-prods__item-descr">
+               Горный, рама сталь Hi-ten, колеса Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заглавных сбить они скатился дороге, безопасную щеке эта, текстов своего раз рекламных вопроса журчит необходимыми парадигматическая языкового, коварный знаках. О. 
+             </div>
+             <div class="price-red"><span class="big-price">5 931,00 р.</span> <span>5 931 000 р.</span>
+             </div>
+             <div class="price-black"><span class="big-price price-through">6 590,00 р.</span> <span class="price-through">6 590 000 р</span>
+             </div>
+           </div><!-- similar-prods__item -->
+          </div><!-- similar-carousel -->
+       </section><!-- similar-prods -->
+
+       <section class="browsed-prods">
+         <h2 class="section-title">Ранее просмотренные</h2>
+          
+
+         <div class="owl-carousel nav-right" id="browsed-carousel"><div class="browsed-prods__item">
+            
+             <div class="browsed-prods__item-wrap">
+               <img src="img/prod-earlier01.jpg" alt="model">
+             </div>
+             <h3 class="browsed-prods__item-title">Stels Navigator 930 Disc 29 (2014)</h3>
+             <div class="browsed-prods__item-descr">
+               Велосипеды
+             </div>
+            
+             <div class="price-black">
+                <span class="big-price">435,60 р.</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="browsed-prods__item">
+            
+             <div class="browsed-prods__item-wrap">
+               <img src="img/prod-earlier02.jpg" alt="model">
+             </div> 
+             <h3 class="browsed-prods__item-title">Lego technick</h3>
+             <div class="browsed-prods__item-descr">
+               Конструкторы
+             </div>
+            
+             <div class="price-black">
+                <span class="big-price">1 027,00 р.</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="browsed-prods__item">
+            
+             <div class="browsed-prods__item-wrap">
+               <img src="img/prod-earlier03.jpg" alt="model">
+             </div> 
+             <h3 class="browsed-prods__item-title">Мягкая игрушка Hasbro Игривый щенок [B0449]</h3>
+             <div class="browsed-prods__item-descr">
+               Мягкие игрушки
+             </div>
+            
+             <div class="price-black">
+                <span class="big-price">3 798,00 р.</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="browsed-prods__item">
+            
+             <div class="browsed-prods__item-wrap">
+               <img src="img/prod-earlier05.jpg" alt="model">
+             </div> 
+             <h3 class="browsed-prods__item-title">Холодильник ATLANT ХМ 4307-000</h3>
+             <div class="browsed-prods__item-descr">
+               Холодильники и морозильники
+             </div>
+            
+             <div class="price-black">
+                <span class="big-price">6 435,60 р.</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="browsed-prods__item">
+            
+             <div class="browsed-prods__item-wrap">
+               <img src="img/prod-earlier06.jpg" alt="model">
+             </div> 
+             <h3 class="browsed-prods__item-title">Кукла Simba Animal Doctor (105737393)</h3>
+             <div class="browsed-prods__item-descr">
+               Куклы
+             </div>
+            
+             <div class="price-black">
+                <span class="big-price">1,60 р.</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="browsed-prods__item">
+            
+             <div class="browsed-prods__item-wrap">
+               <img src="img/prod-earlier07.jpg" alt="model">
+             </div> 
+             <h3 class="browsed-prods__item-title">Телескоп Sky-Watcher BK 767AZ1</h3>
+             <div class="browsed-prods__item-descr">
+               Телескопы
+             </div>
+            
+             <div class="price-black">
+                <span class="big-price">35,60 р.</span>
+             </div>
+           </div><!-- similar-prods__item -->
+           
+           <div class="browsed-prods__item">
+            
+             <div class="browsed-prods__item-wrap">
+               <img src="img/prod-earlier08.jpg" alt="model">
+             </div> 
+             <h3 class="browsed-prods__item-title">Самокат Sundays SA-401</h3>
+             <div class="browsed-prods__item-descr">
+               Самокаты
+             </div>
+            
+             <div class="price-black">
+                <span class="big-price">135,60 р.</span>
+             </div>
+           </div><!-- similar-prods__item --></div>
+       </section><!-- browsed-prods -->
+        
+      
+      </div><!-- main-container --> 
+    </div><!-- wrapper --> 
+
+    <div class="hidden"></div>
+    <div class="loader">
+      <div class="loader_inner"></div>
+    </div>
+    <!--if lt IE 9
+    script(src='libs/html5shiv/es5-shim.min.js')
+    script(src='libs/html5shiv/html5shiv.min.js')
+    script(src='libs/html5shiv/html5shiv-printshiv.min.js')
+    script(src='libs/respond/respond.min.js')
+    -->
+    
+   
+    <script src="js/libs.min.js"></script>
+    
+    
+    <script src="js/common.js"></script>
+  </body>
+</html>
